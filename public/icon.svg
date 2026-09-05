@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0f7ff" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Card -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+  
+  <g transform="translate(46, 40)">
+    <!-- Blue Curved Ascending Arrow -->
+    <path d="M 90 320 C 80 200, 150 110, 240 70 L 210 30 L 290 75 L 240 135 L 215 95 C 150 130, 110 200, 115 320 Z" fill="url(#blueGrad)" />
+    
+    <!-- Green Ascending Arrow -->
+    <path d="M 150 340 L 320 120 L 285 85 L 370 80 L 365 165 L 330 130 L 175 350 Z" fill="url(#greenGrad)" />
+    
+    <!-- SB Interlocking Arc -->
+    <path d="M 230 260 Q 310 230, 350 280 T 260 360 Q 200 360, 240 300" fill="none" stroke="url(#greenGrad)" stroke-width="32" stroke-linecap="round" />
+    
+    <!-- Text Label -->
+    <text x="210" y="420" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="52" fill="#1e3a8a" text-anchor="middle" letter-spacing="-1">SkillBridge</text>
+  </g>
+</svg>

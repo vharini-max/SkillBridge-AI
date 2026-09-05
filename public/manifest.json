@@ -1,0 +1,32 @@
+{
+  "name": "SkillBridge - College Placement Skill Gap Analyzer",
+  "short_name": "SkillBridge",
+  "description": "Prepare for campus placements, test aptitude, analyze resume ATS compatibility, and bridge skill gaps.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#f7f9fb",
+  "theme_color": "#1e40af",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
